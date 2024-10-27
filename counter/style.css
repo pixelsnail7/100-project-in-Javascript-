@@ -1,0 +1,76 @@
+:root {
+    font-size: 16px;
+    
+    --body-bg: #f5f0f6;
+    --btn-bg: #fafafa;
+    --prime: #31E981;
+    --active: #fe5d26;
+    
+    --in-space: 1rem;
+    --prime-br: 1.5rem;
+    --shadow-out: 2px 2px 4px 0px #0c084273 , -2px -2px 4px 0px #ffffff;
+    --shadow-hover: 6px 6px 12px 0px #0d094628 , -6px -6px 18px 0px #ffffff;
+    --shadow-in: 4px 4px 8px 0px #35353528 inset, -4px -4px 8px 0px #ffffff inset;
+
+    --output: 4rem;
+    --btn: 3rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--body-bg);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: var(--prime-br);
+    padding: var(--in-space);
+    background-color: var(--body-bg);
+    box-shadow: var(--shadow-in);
+    cursor: default;
+}
+
+main #output {
+    font-size: var(--output);
+    text-shadow: 2px 4px  4px #0c084273;
+}
+
+main button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    aspect-ratio: 1/1;
+    border: none;
+    border-radius: 4rem;
+    background-color: var(--btn-bg);
+    font-size: var(--btn);
+    box-shadow: var(--shadow-out);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+main button:hover {
+    outline: 2px solid var(--active);
+    color: var(--active);
+    box-shadow: var(--shadow-hover);
+}
+
+main button:active {
+    outline: 2px solid var(--prime);
+    color: var(--prime);
+    box-shadow: var(--shadow-in);
+}
