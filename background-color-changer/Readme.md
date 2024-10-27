@@ -1,3 +1,5 @@
+![](https://github.com/pixelsnail7/100-project-in-Javascript-/blob/main/background-color-changer/background-color-changer.png?raw=true)
+
 # Background color changer
 
 ## Style 
