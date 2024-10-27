@@ -1,3 +1,5 @@
+!()[https://github.com/pixelsnail7/100-project-in-Javascript-/blob/main/clock/clock.png?raw=true]
+
 # Clock 
 
 ## Style 
