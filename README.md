@@ -5,4 +5,4 @@ It has 100's of javascript projects which help to learn javascript better
 **background color changer 🏔️**
 **clock ⏰**
 **counter ⏬**
-**rock paper scissors 🪨 📃 ✂ **
+**rock paper scissors 🪨 📃 ✂**
