@@ -1,0 +1,89 @@
+:root {
+    font-size: 16px;
+    --shadow:8px 8px 16px 0px #0d094628 , -8px -8px 16px 0px #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Animation */
+    transition: 0.5s;
+}
+
+
+#box {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    border-radius: 1rem;
+    padding: 0.5em;
+    box-shadow: var(--shadow);
+}
+
+#outputBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 20rem;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: blueviolet;
+}
+
+button:active {
+    color: #7f48ff;
+}
+
+button:active {
+    animation: shake 0.5s;
+}
+
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+    
+}
+
+
+
+
